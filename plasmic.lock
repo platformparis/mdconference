@@ -99,6 +99,73 @@
         }
       ],
       "codegenVersion": "0.0.1"
+    },
+    {
+      "projectId": "nRVYsRNsf37ycEBzz1jTUZ",
+      "version": "latest",
+      "dependencies": {
+        "ohDidvG9XsCeFumugENU3J": "6.20.0",
+        "8PtdGodUbexNYgkuyBUcWu": "3.22.0"
+      },
+      "lang": "ts",
+      "fileLocks": [
+        {
+          "type": "globalVariant",
+          "assetId": "VI9yyKaZar4f",
+          "checksum": "97cfbbdb1e87dc7f34e22818bfa967d4"
+        },
+        {
+          "assetId": "nRVYsRNsf37ycEBzz1jTUZ",
+          "type": "projectCss",
+          "checksum": "31efd92923f1fd9e4f487d55f8c891e5"
+        },
+        {
+          "assetId": "nRVYsRNsf37ycEBzz1jTUZ",
+          "checksum": "198d0a921f94c80fbd20e8744c9af90d",
+          "type": "globalContexts"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "9Z8mAFDQd8Qm",
+          "checksum": "497472f8b59a22b6620f398ebef39ac1"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "9Z8mAFDQd8Qm",
+          "checksum": "497472f8b59a22b6620f398ebef39ac1"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "SWyvfwYl9DJG",
+          "checksum": "1ca58e865225319a42525797124ed7bd"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "SWyvfwYl9DJG",
+          "checksum": "1ca58e865225319a42525797124ed7bd"
+        },
+        {
+          "type": "image",
+          "assetId": "_zRla2oCVcjL",
+          "checksum": "62db6f3b8dbf74d9bc17f7a802ba8e6d"
+        },
+        {
+          "type": "image",
+          "assetId": "vkxMT2wmyh3P",
+          "checksum": "8cda0a934196591dcd09e72d9f5d66e5"
+        },
+        {
+          "type": "image",
+          "assetId": "UMHPq6J1qn8z",
+          "checksum": "20cf4383ca5a053d12992a222fbd9721"
+        },
+        {
+          "type": "image",
+          "assetId": "dpOmqnH-lKIS",
+          "checksum": "ae475b39cf1302bff9647d582f5a40f8"
+        }
+      ],
+      "codegenVersion": "0.0.1"
     }
   ],
   "cliVersion": "0.1.327"
