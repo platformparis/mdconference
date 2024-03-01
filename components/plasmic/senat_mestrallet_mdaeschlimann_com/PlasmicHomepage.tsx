@@ -245,7 +245,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 displayMaxHeight={"none"}
                 displayMaxWidth={
                   hasVariant(globalVariants, "screen", "desktopOnly")
-                    ? "1000px"
+                    ? "800px"
                     : "100%"
                 }
                 displayMinHeight={"0"}
