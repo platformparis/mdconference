@@ -383,7 +383,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     }
                                   } else {
                                     document.cookie =
-                                      "cs2=true; Secure; SameSite=Strict; Path=/";
+                                      "mestrallet=true; Secure; SameSite=Strict; Path=/";
                                     return location.reload();
                                   }
                                 })();
