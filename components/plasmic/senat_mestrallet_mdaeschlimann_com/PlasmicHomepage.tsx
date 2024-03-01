@@ -75,6 +75,8 @@ import { PhoneInput } from "../../PhoneInput"; // plasmic-import: pe3HGqk8Z1sA/c
 import { AntdCheckbox } from "@plasmicpkgs/antd5/skinny/registerCheckbox";
 import { AntdButton } from "@plasmicpkgs/antd5/skinny/registerButton";
 
+import { useScreenVariants as useScreenVariantsvi9YyKaZar4F } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: VI9yyKaZar4f/globalVariant
+
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
@@ -202,6 +204,10 @@ function PlasmicHomepage__RenderFunc(props: {
   const dataSourcesCtx = usePlasmicDataSourceContext();
   const plasmicInvalidate = usePlasmicInvalidate();
 
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariantsvi9YyKaZar4F()
+  });
+
   return (
     <React.Fragment>
       <Head></Head>
@@ -237,7 +243,11 @@ function PlasmicHomepage__RenderFunc(props: {
                 className={classNames(sty.img)}
                 displayHeight={"auto"}
                 displayMaxHeight={"none"}
-                displayMaxWidth={"100%"}
+                displayMaxWidth={
+                  hasVariant(globalVariants, "screen", "desktopOnly")
+                    ? "1000px"
+                    : "100%"
+                }
                 displayMinHeight={"0"}
                 displayMinWidth={"0"}
                 displayWidth={"auto"}

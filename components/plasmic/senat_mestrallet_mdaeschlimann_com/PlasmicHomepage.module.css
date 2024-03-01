@@ -66,6 +66,11 @@
 .img > picture > img {
   object-fit: cover;
 }
+@media (min-width: 768px) {
+  .img {
+    max-width: 1000px;
+  }
+}
 .h1 {
   position: relative;
   width: 100%;
