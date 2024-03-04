@@ -270,12 +270,21 @@ function PlasmicHomepage__RenderFunc(props: {
                 sty.h1
               )}
             >
-              {
-                "Inscription au Comit\u00e9 des experts\navec Eric Mestrallet\n22 mars 2024"
-              }
+              {"Colloque sur l'\u00e9ducation\navec Eric Mestrallet"}
             </h1>
           </div>
           <div className={classNames(projectcss.all, sty.freeBox__etuOg)}>
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___5ZRno
+              )}
+            >
+              {
+                "Mercredi 22 mars 2024 de 15h00 \u00e0 18h00 \nau S\u00e9nat, Palais du Luxembourg"
+              }
+            </div>
             {(() => {
               try {
                 return (() => {
