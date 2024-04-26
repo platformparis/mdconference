@@ -312,7 +312,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   if (window.self !== window.top) {
                     return true;
                   } else {
-                    return document.cookie.includes("mestrallet=true")
+                    return document.cookie.includes("conference=true")
                       ? false
                       : true;
                   }
@@ -356,7 +356,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             const actionArgs = {
                               dataOp: {
                                 sourceId: "ddBdpqNybrhmL3gA2tP2BN",
-                                opId: "3bd9ad3a-ba03-4c74-bcaf-9ed4c9ca6f46",
+                                opId: "346b9f6a-bc3b-4f07-a09d-6296538b7ccf",
                                 userArgs: {
                                   body: [values]
                                 },
@@ -413,7 +413,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     }
                                   } else {
                                     document.cookie =
-                                      "mestrallet=true; Secure; SameSite=Strict; Path=/";
+                                      "conference=true; Secure; SameSite=Strict; Path=/";
                                     return location.reload();
                                   }
                                 })();
@@ -774,7 +774,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   if (window.self !== window.top) {
                     return false;
                   } else {
-                    return document.cookie.includes("mestrallet=true")
+                    return document.cookie.includes("conference=true")
                       ? true
                       : false;
                   }
