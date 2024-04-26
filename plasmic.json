@@ -419,8 +419,7 @@
           "componentImportPath": "@plasmicpkgs/antd5/skinny/registerBreadcrumb"
         }
       ],
-      "customFunctions": [],
-      "jsBundleThemes": []
+      "customFunctions": []
     },
     {
       "projectId": "2yr4aVZ2x1Tc7VYQCrTrMc",
@@ -528,7 +527,7 @@
     {
       "projectId": "nRVYsRNsf37ycEBzz1jTUZ",
       "projectApiToken": "X3w0tFbueMCkuv29HAcyxwSHxtmDHppZnO6v0qGjD9BBWlxAcd0Ifl9LQKdYTPMQ8oXniDxEhRgvl9ysw",
-      "projectName": "senat-mestrallet.mdaeschlimann.com",
+      "projectName": "senat-conference.mdaeschlimann.com",
       "version": "latest",
       "cssFilePath": "plasmic/senat_mestrallet_mdaeschlimann_com/plasmic.module.css",
       "components": [
@@ -582,6 +581,11 @@
           "id": "dpOmqnH-lKIS",
           "name": "Eric mestrallet.jpeg",
           "filePath": "../public/plasmic/senat_mestrallet_mdaeschlimann_com/images/ericMestralletjpeg.jpg"
+        },
+        {
+          "id": "LJmDBIO_z78N",
+          "name": "photo20240315093040Jpg.jpg",
+          "filePath": "../public/plasmic/senat_conference_mdaeschlimann_com/images/photo20240315093040Jpgjpg.jpg"
         }
       ],
       "indirect": false,

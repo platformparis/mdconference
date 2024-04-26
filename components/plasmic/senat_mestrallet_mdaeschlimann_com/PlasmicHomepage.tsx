@@ -253,9 +253,9 @@ function PlasmicHomepage__RenderFunc(props: {
                 displayWidth={"auto"}
                 loading={"lazy"}
                 src={{
-                  src: "/plasmic/senat_mestrallet_mdaeschlimann_com/images/ericMestralletjpeg.jpg",
-                  fullWidth: 1500,
-                  fullHeight: 1076,
+                  src: "/plasmic/senat_conference_mdaeschlimann_com/images/photo20240315093040Jpgjpg.jpg",
+                  fullWidth: 1600,
+                  fullHeight: 900,
                   aspectRatio: undefined
                 }}
               />
@@ -270,7 +270,9 @@ function PlasmicHomepage__RenderFunc(props: {
                 sty.h1
               )}
             >
-              {"Colloque sur l'\u00e9ducation\navec Eric Mestrallet"}
+              {
+                "Conf\u00e9rence-d\u00e9bat\nD\u00e9cryptage et implications du projet de loi sur la fin de vie"
+              }
             </h1>
           </div>
           <div className={classNames(projectcss.all, sty.freeBox__etuOg)}>
@@ -281,9 +283,28 @@ function PlasmicHomepage__RenderFunc(props: {
                 sty.text___5ZRno
               )}
             >
-              {
-                "Mercredi 22 mars 2024 de 15h00 \u00e0 18h00 \nau S\u00e9nat, Palais du Luxembourg"
-              }
+              <React.Fragment>
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 700 }}
+                >
+                  {"Autour du Docteur Claire Fourcade,"}
+                </span>
+                <React.Fragment>
+                  {
+                    " Pr\u00e9sidente de la Soci\u00e9t\u00e9 Fran\u00e7aise d'Accompagnement et de Soins Palliatifs\n(SFAP) \n"
+                  }
+                </React.Fragment>
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 700 }}
+                >
+                  {"et de nombreux experts"}
+                </span>
+                <React.Fragment>
+                  {"\n lundi 13 mai 2024 \u00e0 19h00, au S\u00e9nat."}
+                </React.Fragment>
+              </React.Fragment>
             </div>
             {(() => {
               try {
